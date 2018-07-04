@@ -2,8 +2,9 @@
 
 _In house application for tracking SIG progress and feedback._
 
-The Project Name is 'sig_tracker'.
-'about_sig’ is an app that contains the home page housing info what sigs are and links to individual sig progress.
+The name of the project is 'sig_tracker' and 'about_sig’ is the name of app. 
+
+This app contains the home page housing info what sigs are and links to individual sig progress.
 
 ## How to run?
 
@@ -11,40 +12,44 @@ The Project Name is 'sig_tracker'.
 
 1.	For people using python3 virtual environment:
 
-i.	To install python3-venv, refer this
+To install python3-venv, refer this
 
-ii.	Create a folder 'environments'.
+i.	Create a folder 'environments'.
 
-iii.	
+ii.	
         
       mkdir environments
 
       cd environments   
       
-iv.	The base directory contains 'requirements.txt' file. To replicate the same environment:
+iii.	The base directory contains 'requirements.txt' file.
 
-v.	virtualenv sig_tracker
+iv.     To replicate the same environment:
+      
+        virtualenv sig_tracker
 
-vi.	source sig_tracker/bin/activate
+        source sig_tracker/bin/activate
+ 
 
-    pip install -r requirements.txt
-    
+v.     
+
+        pip install -r requirements.txt
+        
+
 #### Running for the first time:
 
 1.	To migrate databases:
 
-2.	
-     
-       python manage.py makemigrations
+        python manage.py makemigrations
 
-       python manage.py migrate
+        python manage.py migrate
+ 
     
 3.	Start the development server:
-
+     
     
         python manage.py runserver
+      
     
-_Raise issues if you face any problems with respect to firing up the app. Improvements are welcome. Just fork the repository, create PRs with meaningful commit messages._
-
-
+_Please file an issue if you face any problem while running the app. Improvements are always welcome. Feel free to fork the repository and send in pull requests with proper commit messages.
 
