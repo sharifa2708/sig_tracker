@@ -16,4 +16,3 @@ def detail(request, sig_id):
     except Sig.DoesNotExist:
         raise Http404("SIG does not exist")
     return render(request, 'about_sig/detail.html', {'sig': sig})
-
