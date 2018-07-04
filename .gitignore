@@ -1,14 +1,11 @@
 ### Python ###
 
-# Byte-compiled / optimized / DLL files
-
 __pycache__/
 
-.env
-
-.pyc
+*.pyc
 
 db.sqlite3
 
-.idea
+.idea/
 
+migrations/
