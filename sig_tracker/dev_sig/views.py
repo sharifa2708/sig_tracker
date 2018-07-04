@@ -6,4 +6,3 @@ def index(request):
 
 def detail(request, dev_id):
     return HttpResponse("<h2> Details for dev_id:" + str(dev_id) + "</h2>")
-
