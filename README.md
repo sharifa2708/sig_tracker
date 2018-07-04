@@ -5,16 +5,13 @@ This app contains the home page housing info what sigs are and links to individu
 ## How to run?
 #### Setting up the Development Environment
 1.For people using python3 virtual environment:
-To install python3 virtual environment, refer this-
-i.	
-                                
-        pip install virtualenv
-        
-        virtualenv --python==python3 sig_tracker
-        
-        source sig_tracker/bin/activate 
+i.To install python3 virtual environment, refer this:
+    
+    pip install virtualenv
+    virtualenv --python==python3 sig_tracker
+    source sig_tracker/bin/activate 
 ii.	The base directory contains 'requirements.txt' file.
-iii.     To replicate the same environment:   
+iii. To replicate the same environment:   
 
          pip install -r requirements.txt
 #### Running for the first time:
