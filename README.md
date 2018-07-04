@@ -12,26 +12,20 @@ This app contains the home page housing info what sigs are and links to individu
 
 1.	For people using python3 virtual environment:
 
-To install python3-venv, refer this
+To install python3 virtual environment, refer this-
 
-i.	Create a folder 'environments'.
+i.	
 
-ii.	
+        pip install virtualenv
         
-      mkdir environments
+        virtualenv --python==python3 sig_tracker
 
-      cd environments   
-      
-iii.	The base directory contains 'requirements.txt' file.
-
-iv.     To replicate the same environment:
-      
-        virtualenv sig_tracker
-
-        source sig_tracker/bin/activate
+        source sig_tracker/bin/activate    
  
+      
+ii.	The base directory contains 'requirements.txt' file.
 
-v.     
+iii.     To replicate the same environment:    
 
         pip install -r requirements.txt
         
