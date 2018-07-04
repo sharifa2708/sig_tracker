@@ -8,7 +8,7 @@ class Sig(models.Model):
      about = models.TextField(blank= True)
      created = models.DateTimeField(auto_now_add= True)
      modified = models.DateTimeField(auto_now= True)
-
+     
      def __str__(self):
          return self.sig_name
 
@@ -20,10 +20,6 @@ class Topics(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     topic_gist = models.TextField(blank=True)
     resources = models.TextField(blank=True)
-
-    def  __str__(self):
+    
+     def  __str__(self):
         return self.topic_name
-
-
-
-
