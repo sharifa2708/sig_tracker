@@ -5,7 +5,7 @@ This app contains the home page housing info what sigs are and links to individu
 ## How to run?
 #### Setting up the Development Environment
 For python3 virtual environment:<br>
-1. To install python3 virtual environment, refer this:<br>
+1. To install python3 virtual environment, refer this:
    ```bash
    pip install virtualenv
    virtualenv --python==python3 sig_tracker
@@ -13,14 +13,14 @@ For python3 virtual environment:<br>
    ```
 2. The base directory contains 'requirements.txt' file. To replicate the same environment:<br>
    ```bash
-   pip install -r requirements.txt<br>
+   pip install -r requirements.txt
    ```
 
 #### Running for the first time:
 1. To migrate databases:<br>
    ```bash
-    python manage.py makemigrations [app_name]<br>
-    python manage.py migrate<br>
+    python manage.py makemigrations [app_name]
+    python manage.py migrate
    ```
 2. Start the development server:<br>
    ```bash
