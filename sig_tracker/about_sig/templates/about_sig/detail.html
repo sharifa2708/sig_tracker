@@ -1,4 +1,5 @@
 <img src ="{{sig.sig_logo}}">
+<<<<<<< HEAD
 <h1>{{sig.sig_name}}</h1>
 
 <h3>{{sig.co_ordinator}}</h3>
@@ -10,3 +11,20 @@
 
     {% endfor %}
 </ul>
+=======
+<h1>
+  {{sig.sig_name}}
+</h1>
+
+<h3>
+  {{sig.co_ordinator}}
+</h3>
+
+<ul>
+  {%for sig in sig.topic_set.all %}
+    <li>
+      {{topic.topic_name}}-{{topic.date}}
+    </li>
+  {% endfor %}
+</ul>
+>>>>>>> upstream/master

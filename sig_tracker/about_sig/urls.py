@@ -4,9 +4,16 @@ from . import views
 app_name = 'about_sig'
 urlpatterns = [
     #/about_sig/
+<<<<<<< HEAD
     url(r'', views.index, name='index'),
     #/about_sig/1/
     url(r'(?P<sig_id>[0-9]+)/$', views.detail, name='detail'),
 
 
 ]
+=======
+    url(r'^', views.index, name='index'),
+    #/about_sig/1/
+    url(r'^(?P<sig_id>[0-9]+)/$', views.detail, name='detail'),
+]
+>>>>>>> upstream/master
