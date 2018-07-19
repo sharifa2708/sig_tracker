@@ -24,6 +24,9 @@ def detail(request, sig_id):
         raise Http404("SIG does not exist")
     return render(request, 'about_sig/detail.html', {'sig': sig})
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> upstream/master
+=======
+>>>>>>> 39b819b6744c64ef961942633ec4912bf989ead7

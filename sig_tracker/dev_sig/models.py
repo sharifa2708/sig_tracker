@@ -8,4 +8,8 @@ class dev(models.Model):
 # include feedback
     def __str__(self):
         return self.topic
+<<<<<<< HEAD
     
+=======
+    
+>>>>>>> 39b819b6744c64ef961942633ec4912bf989ead7

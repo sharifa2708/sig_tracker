@@ -9,7 +9,7 @@ class Sig(models.Model):
      about = models.TextField(blank= True)
      created = models.DateTimeField(auto_now_add= True)
      modified = models.DateTimeField(auto_now= True)
-
+     
      def __str__(self):
          return self.sig_name
 
@@ -37,6 +37,7 @@ class Topics(models.Model):
     topic_gist = models.TextField(blank=True)
     resources = models.TextField(blank=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def  __str__(self):
         return self.topic_name
@@ -49,3 +50,8 @@ class Topics(models.Model):
     def  __str__(self):
         return self.topic_name
 >>>>>>> upstream/master
+=======
+    
+     def  __str__(self):
+        return self.topic_name
+>>>>>>> 39b819b6744c64ef961942633ec4912bf989ead7
